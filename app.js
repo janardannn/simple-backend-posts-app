@@ -24,7 +24,7 @@ const JWT_SECRET = "JWT_Secret_very_secret";
 
 
 try {
-    mongoose.connect("mongodb+srv://janardannn:Mongopass@cluster0.ngy8hyn.mongodb.net/1-mongo-app");
+    mongoose.connect("mongodb+srv://username:password?mongodb_url/1-mongo-app");
 } catch (err) {
     console.log(err)
 };
